@@ -1,0 +1,296 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-area{
+height: auto;
+width: 100vw;
+color: white;
+background: #10094A;
+background: linear-gradient(90deg, rgba(16, 9, 74, 1) 0%, rgba(20, 30, 138, 1) 100%, rgba(19, 38, 154, 1) 100%);}
+.About-section{
+  height: 83vh;
+width: 100vw;
+color: white;
+background: #10094A;
+background: linear-gradient(90deg, rgba(16, 9, 74, 1) 0%, rgba(20, 30, 138, 1) 100%, rgba(19, 38, 154, 1) 100%);}
+
+
+
+.miniNav{
+  background: #10094A;
+
+}
+
+.titleColor{
+  color: white ;
+}
+
+.navbar-dark .nav-link.dropdown-toggle  {
+  color: white !important;
+}
+
+.mainHeading{
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  font-size: 4vw;
+  text-transform: uppercase;
+}
+
+.heroPara{
+  font-family: 'Rubik', sans-serif;
+}
+
+.btn{
+  background-color: #1868DD;
+  color: white;
+  font-weight: 400;
+
+}
+
+.btn2{
+  color: white;
+  border: 1px solid white;
+}
+
+.border-bottom-secondary{
+  border-bottom: 1px solid rgba(237, 232, 232, 0.694);
+}
+
+.domain-area {
+  height: 40vh;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
+  bottom: -32%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: white;
+  border-radius: 20px;
+  background-color: white;
+}
+
+
+
+.input-box{
+  width: 50vw;
+  padding: 25px 30px;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+
+.icon{
+  height: auto;
+  width: 50px;
+}
+
+.choose-area{
+  position: relative;
+  margin-top: 190px;
+}
+
+.aboutText{
+  background-color: #1868DD;
+  color: white;
+}
+
+.aboutTeam{
+  height: 60vh;
+}
+
+.textBlue{
+  color: #103DBE;
+}
+.bgBlue{
+  background-color: #103DBE;
+}
+
+.textGray{
+  color: #8C8C8C;
+}
+
+.plan-para{
+  color: #828AAB;
+}
+
+.features-heading{
+  color: #828AAB;
+
+}
+
+.featureIcon{
+  font-weight: bold;
+  color: #103DBE;
+  font-size: 20px;
+}
+
+
+.hover-shadow:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1) !important;
+}
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.solutionArea{
+  background: #10094A;
+  background: linear-gradient(90deg, rgba(16, 9, 74, 1) 0%, rgba(20, 30, 138, 1) 100%, rgba(19, 38, 154, 1) 100%);
+  height: 40vh;
+  
+}
+
+.sol-card{
+  background-color: #4288f1;
+}
+
+.brand-logo {
+  filter: grayscale(100%);
+  transition: filter 0.4s ease-in-out;
+}
+
+.brand-logo:hover {
+  filter: grayscale(0%);
+}
+
+.wave-icon{
+  height: 70px;
+  width: 80px;
+}
+
+.footer-area{
+  background: #10094A;
+  background: linear-gradient(90deg, rgba(16, 9, 74, 1) 0%, rgba(20, 30, 138, 1) 100%, rgba(19, 38, 154, 1) 100%);
+}
+
+.footer-link{
+  line-height:2 ;
+}
+
+.underline{
+  width: 20%;
+  height: 3px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #ffffff22; /* translucent white circle */
+  color: white;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  background-color: white;
+  color: #000;
+}
+
+.AboutVideo{
+  height: 55vh;
+  width: 50vw;
+}
+
+.aboutChoose{
+  margin: -50px 0px;
+  padding: -50px 0px;
+}
+
+.teamBox{
+  background-color: #000000ee;
+  z-index: -89;
+}
+
+.teamImg{
+  background-color: aliceblue;
+}
+
+.team-box {
+  position: relative;
+  overflow: hidden;
+}
+.team-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.team-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.384);
+  position: absolute;
+  z-index: 2;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden;
+}
+
+.name-title {
+  transform: translateY();
+  transition: all 0.3s ease-in;
+  transition: all 0.9s ease-out;
+
+
+
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.team-para,
+.social-icons {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease-in-out;
+}
+
+.team-para {
+  transition-delay: 0.2s;
+}
+
+.social-icons {
+  transition-delay: 0.4s;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+/* Hover Effects */
+.team-box:hover .name-title {
+  transform: translateY(-60px);
+}
+
+.team-box:hover .team-para,
+.team-box:hover .social-icons {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.inputFiled{
+ padding: 20px 10px;
+}
+
+.custom-input {
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: none;
+}
+
+.custom-input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ced4da; /* neutral border color */
+}
