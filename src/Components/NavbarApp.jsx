@@ -75,7 +75,7 @@ function NavbarApp() {
                 </NavDropdown>
 
                 <NavDropdown title="Hosting" className="text-white">
-                  <NavDropdown.Item as={Link} to="/shared-hosting">Shared Hosting</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/shared">Shared Hosting</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/vps-hosting">VPS Hosting</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/reseller-hosting">Reseller Hosting</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to="/cloud-hosting">Cloud Hosting</NavDropdown.Item>

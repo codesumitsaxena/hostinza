@@ -294,3 +294,39 @@ background: linear-gradient(90deg, rgba(16, 9, 74, 1) 0%, rgba(20, 30, 138, 1) 1
   box-shadow: none !important;
   border-color: #ced4da; /* neutral border color */
 }
+
+.pricing-section {
+  font-family: 'Inter', sans-serif;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-price {
+  font-size: 2.5rem;
+}
+
+.card-body ul li {
+  font-size: 1rem;
+}
+
+.toggle-group button {
+  transition: all 0.3s ease-in-out;
+}
+
+.toggle-group .btn {
+  min-width: 120px;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.4rem 0.75rem;
+}
+
+.features{
+  height: auto;
+width: 100vw;
+color: white;
+background: #10094A;
+background: linear-gradient(90deg, rgba(16, 9, 74, 1) 0%, rgba(20, 30, 138, 1) 100%, rgba(19, 38, 154, 1) 100%);}

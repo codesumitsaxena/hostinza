@@ -11,8 +11,8 @@ import Footer from './Components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './Components/About';
 import Contact from './Components/Contact';
+import Shared from './Components/Shared'
 import HeroSection from './Components/HeroSection';
-
 function App() {
   return (
     <Router>
@@ -31,6 +31,9 @@ function App() {
         } />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/shared" element={<Shared />} />
+        
+
       </Routes>
     </Router>
   );
