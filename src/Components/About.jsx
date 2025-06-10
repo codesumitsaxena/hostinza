@@ -12,7 +12,6 @@ import Team3 from '../assets/team-3.jpg'
 import Team4 from '../assets/team-4.jpg'
 import sheild from "../assets/sheild.png";
 import Cloud from "../assets/cloud-lock.png";
-
 import Footer from './Footer';
 
 
